@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\client">
+      <UniqueIdentifier>{f61335f8-8f8c-4047-8bc9-75362f94ab0d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -30,6 +33,9 @@
     <ClCompile Include="play.cpp">
       <Filter>头文件</Filter>
     </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>头文件\client</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="window.h">
@@ -40,6 +46,12 @@
     </ClInclude>
     <ClInclude Include="play.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>头文件\client</Filter>
+    </ClInclude>
+    <ClInclude Include="client_thread.h">
+      <Filter>头文件\client</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

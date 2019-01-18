@@ -5,6 +5,7 @@ Control::Control()
 {
 	c_State = 0;
 	c_Winner = 0;
+	c_Net = false;
 }
 Control::~Control()
 {
